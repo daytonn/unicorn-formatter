@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "unicorn-formatter"
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Dayton Nolan"]
@@ -25,7 +25,8 @@ Gem::Specification.new do |s|
     "VERSION",
     "lib/unicorn-formatter.rb",
     "spec/spec_helper.rb",
-    "spec/unicorn-formatter_spec.rb"
+    "spec/unicorn-formatter_spec.rb",
+    "unicorn-formatter.gemspec"
   ]
   s.homepage = "http://github.com/daytonn/unicorn-formatter"
   s.licenses = ["MIT"]

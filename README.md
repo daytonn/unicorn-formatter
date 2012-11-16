@@ -2,7 +2,7 @@
 
 Based on the brilliant [unicornleap](https://github.com/sdegutis/unicornleap) by sdegutis, this is a simple rspec formatter to make the majestic unicorn leap across your screen every time your specs pass.
 
-![image](https://github.com/daytonn/unicorn-formatter/blob/master/screenshot.png)
+![image](https://s3.amazonaws.com/daytonn/screenshot.png)
 
 #Installation
 

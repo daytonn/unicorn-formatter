@@ -6,25 +6,28 @@
 Gem::Specification.new do |s|
   s.name = "unicorn-formatter"
   s.version = "0.1.3"
+
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Dayton Nolan"]
   s.date = "2012-11-16"
-  s.email = "dnolan@gmail.com"
-  s.extra_rdoc_files = [
   s.description = "An rspec formatter based on https://github.com/sdegutis/unicornleap"
   s.email = "dnolan@gmail.com"
+  s.extra_rdoc_files = [
+    "README.rdoc"
+  ]
   s.files = [
+    ".document",
     ".rbenv-gemsets",
     ".rspec",
     "Gemfile",
     "Gemfile.lock",
-    "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
     "VERSION",
     "lib/unicorn_formatter.rb",
     "spec/spec_helper.rb",
-    "spec/unicorn-formatter_spec.rb"
+    "spec/unicorn-formatter_spec.rb",
+    "unicorn-formatter.gemspec"
   ]
   s.homepage = "http://github.com/daytonn/unicorn-formatter"
   s.licenses = ["MIT"]
@@ -44,6 +47,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<bundler>, [">= 0"])
       s.add_development_dependency(%q<jeweler>, [">= 0"])
     else
+      s.add_dependency(%q<rspec>, [">= 0"])
       s.add_dependency(%q<pry>, [">= 0"])
       s.add_dependency(%q<pry-nav>, [">= 0"])
       s.add_dependency(%q<rspec>, [">= 0"])
@@ -61,3 +65,4 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<jeweler>, [">= 0"])
   end
 end
+

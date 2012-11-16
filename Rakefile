@@ -19,7 +19,7 @@ Jeweler::Tasks.new do |gem|
   gem.homepage = "http://github.com/daytonn/unicorn-formatter"
   gem.license = "MIT"
   gem.summary = %Q{A majestic unicorn will leap across your screen when your specs pass}
-  gem.description = %Q{This is an rspec formatter based on https://github.com/sdegutis/unicornleap}
+  gem.description = %Q{An rspec formatter based on https://github.com/sdegutis/unicornleap}
   gem.email = "dnolan@gmail.com"
   gem.authors = ["Dayton Nolan"]
   # dependencies defined in Gemfile

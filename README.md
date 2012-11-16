@@ -2,7 +2,7 @@
 
 Based on the brilliant [unicornleap](https://github.com/sdegutis/unicornleap) by sdegutis, this is a simple rspec formatter to make the majestic unicorn leap across your screen every time your specs pass.
 
-![image](screenshot.png)
+![image](https://github.com/daytonn/unicorn-formatter/blob/master/screenshot.png)
 
 #Installation
 
@@ -14,9 +14,9 @@ You first need to download and build [unicornleap](https://github.com/sdegutis/u
     cd unicornleap
     make
     ln -s ./unicornleap /usr/local/bin/unicornleap
- 
+
 ## Installing uniorn-formatter
-    
+
 Put `unicorn-formatter` in your Gemfile:
 
     gem 'unicorn-formatter'
@@ -24,19 +24,19 @@ Put `unicorn-formatter` in your Gemfile:
 Then install it with bundler:
 
     bundle install
-    
+
 Your all set, just be sure to run your specs with `--format default --format UnicornFormatter`. You don't need to use the default formater but you have to use two formatters since the unicorn formatter does nothing but run the unicornleap command if you pass all your tests.
 
 If you want to set your default formats and not have to specify the format every time you run your specs. Simply, create a `.rspec` file in your home directory and add the following line:
 
     --color --format default --format UnicornFormatter
-    
+
 Again, you can swap out the `default` formatter for any other rspec formatter. I personally recommend combining this formatter with the [nyan-cat-formatter](https://github.com/mattsears/nyan-cat-formatter).
 
     --color --format NyanCatFormatter --format UnicornFormatter
 
 ##Contributing to unicorn-formatter
- 
+
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it.
 * Fork the project.

@@ -13,7 +13,7 @@ You first need to download and build [unicornleap](https://github.com/sdegutis/u
     git clone https://github.com/sdegutis/unicornleap.git
     cd unicornleap
     make
-    ln -s ./unicornleap /usr/local/bin/unicornleap
+    ln -s unicornleap /usr/local/bin/unicornleap
 
 ## Installing uniorn-formatter
 

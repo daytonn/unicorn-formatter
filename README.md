@@ -25,7 +25,7 @@ Then install it with bundler:
 
     bundle install
 
-Your all set, just be sure to run your specs with `--format default --format UnicornFormatter`. You don't need to use the default formater but you have to use two formatters since the unicorn formatter does nothing but run the unicornleap command if you pass all your tests.
+Your all set, just be sure to run your specs with `--format default --format UnicornFormatter`. You don't need to use the default formater but you should use another formatter since the unicorn formatter does not output test results. It simply calls [unicornleap](https://github.com/sdegutis/unicornleap) when your specs pass without any failures (the unicorn will still leap with pending specs).
 
 If you want to set your default formats and not have to specify the format every time you run your specs. Simply, create a `.rspec` file in your home directory and add the following line:
 

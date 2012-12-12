@@ -1,6 +1,8 @@
 #UnicornFormatter
 
-Based on the brilliant [unicornleap](https://github.com/sdegutis/unicornleap) by [sdegutis](https://github.com/sdegutis), this is a simple rspec formatter to make the majestic unicorn leap across your screen every time your specs pass.
+Based on the brilliant [unicornleap](https://github.com/daytonn/unicornleap) which is a fork of the original repo by the same name by [sdegutis](https://github.com/sdegutis).
+
+This is a simple rspec formatter to make the majestic unicorn leap across your screen every time your specs pass.
 
 ![image](https://s3.amazonaws.com/daytonn/screenshot.png)
 
@@ -8,9 +10,7 @@ Based on the brilliant [unicornleap](https://github.com/sdegutis/unicornleap) by
 
 ## Installing unicornleap
 
-You first need to download and build [unicornleap](https://github.com/sdegutis/unicornleap) using make. There are instructions available in the orignal repository but here is a quick setup of unicornleap:
-
-    git clone https://github.com/sdegutis/unicornleap.git
+    git clone https://github.com/daytonn/unicornleap.git
     cd unicornleap
     make
     ln -s /full/path/to/recently/built/unicornleap /usr/local/bin/unicornleap
@@ -25,7 +25,7 @@ Then install it with bundler:
 
     bundle install
 
-Your all set, just be sure to run your specs with `--format default --format UnicornFormatter`. You don't need to use the default formater but you should use another formatter since the unicorn formatter does not output test results. It simply calls [unicornleap](https://github.com/sdegutis/unicornleap) when your specs pass without any failures (the unicorn will still leap with pending specs).
+Your all set, just be sure to run your specs with `--format default --format UnicornFormatter`. You don't need to use the default formater but you should use another formatter since the unicorn formatter does not output test results. It simply calls [unicornleap](https://github.com/daytonn/unicornleap) when your specs pass without any failures (the unicorn will still leap with pending specs).
 
 If you want to set your default formats and not have to specify the format every time you run your specs. Simply, create a `.rspec` file in your home directory and add the following line:
 

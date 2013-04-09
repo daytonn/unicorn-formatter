@@ -13,7 +13,7 @@ This is a simple rspec formatter to make the majestic unicorn leap across your s
     git clone https://github.com/daytonn/unicornleap.git
     cd unicornleap
     make
-    ln -s /full/path/to/recently/built/unicornleap /usr/local/bin/unicornleap
+    ln -s $PWD/unicornleap /usr/local/bin/unicornleap
 
 ## Installing uniorn-formatter
 

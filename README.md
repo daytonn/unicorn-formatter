@@ -15,7 +15,7 @@ This is a simple rspec formatter to make the majestic unicorn leap across your s
     make
     ln -s /full/path/to/recently/built/unicornleap /usr/local/bin/unicornleap
 
-## Installing uniorn-formatter
+## Installing unicorn-formatter
 
 Put `unicorn-formatter` in your Gemfile:
 

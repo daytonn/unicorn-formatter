@@ -1,6 +1,6 @@
 #UnicornFormatter
 
-Based on the brilliant [unicornleap](https://github.com/daytonn/unicornleap) which is a fork of the original repo by the same name by [sdegutis](https://github.com/sdegutis).
+Based on the brilliant [unicornleap](https://github.com/daytonn/unicornleap) which is a fork of the original repo by the same name by [sdegutis](https://github.com/sdegutis) and [JoshCheek](https://github.com/JoshCheek).
 
 This is a simple rspec formatter to make the majestic unicorn leap across your screen every time your specs pass.
 
